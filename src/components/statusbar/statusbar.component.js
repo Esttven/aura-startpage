@@ -121,11 +121,11 @@ class Statusbar extends Component {
       }
 
       #tabs ul li[active]:nth-child(2) ~ li:last-child {
-          --flavour: ${CONFIG.palette.peach};
+          --flavour: ${CONFIG.palette.blue};
       }
 
       #tabs ul li[active]:nth-child(3) ~ li:last-child {
-          --flavour: ${CONFIG.palette.red};
+          --flavour: ${CONFIG.palette.peach};
       }
 
       #tabs ul li[active]:nth-child(4) ~ li:last-child {
