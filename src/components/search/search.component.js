@@ -176,7 +176,7 @@ class Search extends Component {
 
     let args = target.value.split(' ');
     let prefix = args[0];
-    let defaultEngine = this.engines['d'][0];
+    let defaultEngine = this.engines['g'][0];
     let engine = defaultEngine;
 
     // Highlight active engine based on prefix

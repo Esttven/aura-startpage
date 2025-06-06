@@ -14,8 +14,8 @@ const default_configuration = {
     scale: "C",
   },
   clock: {
-    format: "k:i p",
-    icon_color: palette.maroon,
+    format: "h:i",
+    icon_color: palette.mauve,
   },
   additionalClocks: [
   ],
@@ -55,13 +55,13 @@ const default_configuration = {
               name: "aula virtual",
               url: "https://auth-eva.puce.edu.ec:8443/login?service=https%3A%2F%2Fssoserver2.puce.edu.ec%2F",
               icon: "notebook",
-              icon_color: palette.peach,
+              icon_color: palette.sapphire,
             },
             {
               name: "intranet",
               url: "https://www.puce.edu.ec/intranet/login",
               icon: "school",
-              icon_color: palette.red,
+              icon_color: palette.green,
             },
           ],
         },
@@ -72,13 +72,13 @@ const default_configuration = {
               name: "gx corner",
               url: "https://gxcorner.games/?LANG=en&COUNTRY=US&LOCALE=en-US",
               icon: "device-gamepad-2",
-              icon_color: palette.mauve,
+              icon_color: palette.red,
             },
             {
               name: "fmhy",
               url: "https://fmhy.net/",
               icon: "device-gamepad-2",
-              icon_color: palette.blue,
+              icon_color: palette.mauve,
             },
           ],
         },
@@ -95,7 +95,7 @@ const default_configuration = {
               name: "github",
               url: "https://github.com",
               icon: "brand-github",
-              icon_color: palette.green,
+              icon_color: palette.lavender,
             },
             {
               name: "stackoverflow",
@@ -164,7 +164,7 @@ const default_configuration = {
               name: "reddit",
               url: "https://www.reddit.com",
               icon: "brand-reddit",
-              icon_color: palette.red,
+              icon_color: palette.peach,
             },
           ],
         },
@@ -175,7 +175,7 @@ const default_configuration = {
               name: "steam",
               url: "https://store.steampowered.com",
               icon: "brand-steam",
-              icon_color: palette.peach,
+              icon_color: palette.blue,
             },
           ],
         },
@@ -192,7 +192,7 @@ const default_configuration = {
               name: "youtube",
               url: "https://www.youtube.com",
               icon: "brand-youtube",
-              icon_color: palette.peach,
+              icon_color: palette.red,
             },
           ],
         },
@@ -206,3 +206,8 @@ const CONFIG = new Config(default_configuration, palette);
 const root = document.querySelector(":root");
 root.style.setProperty("--bg", palette.mantle);
 root.style.setProperty("--accent", palette.green);
+
+// Custom tab accent colors - modify these to change the color of each tab
+root.style.setProperty("--tab-1-color", palette.mauve);
+root.style.setProperty("--tab-2-color", palette.blue);
+root.style.setProperty("--tab-3-color", palette.green);
