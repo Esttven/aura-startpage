@@ -87,33 +87,9 @@ const default_configuration = {
           name: "media",
           links: [
             {
-              name: "уп",
-              url: "https://www.pravda.com.ua",
-              icon: "news",
-              icon_color: palette.green,
-            },
-            {
-              name: "mil.in.ua",
-              url: "https://mil.in.ua",
-              icon: "badge-filled",
-              icon_color: palette.peach,
-            },
-            {
-              name: "куток",
-              url: "https://kutok.io",
-              icon: "border-radius",
-              icon_color: palette.red,
-            },
-            {
-              name: "ґрунт",
-              url: "https://grnt.media",
-              icon: "eye-bolt",
-              icon_color: palette.blue,
-            },
-            {
-              name: "village",
-              url: "https://www.village.com.ua",
-              icon: "home-2",
+              name: "gx corner",
+              url: "https://gxcorner.games/?LANG=en&COUNTRY=US&LOCALE=en-US",
+              icon: "device-gamepad-2",
               icon_color: palette.mauve,
             },
           ],
