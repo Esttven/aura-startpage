@@ -30,22 +30,16 @@ const default_configuration = {
   },
   disabled: [],
   localIcons: false,
-  fastlink: "https://www.perplexity.ai",
+  fastlink: "",
   openLastVisitedTab: true,
   tabs: [
     {
-      name: "myself",
+      name: "main",
       background_url: "src/img/banners/banner_14.gif",
       categories: [
         {
           name: "bookmarks",
           links: [
-            {
-              name: "raindrop",
-              url: "https://app.raindrop.io",
-              icon: "droplet-bolt",
-              icon_color: palette.green,
-            },
             {
               name: "musicForProgramming();",
               url: "https://musicforprogramming.net",
@@ -58,28 +52,16 @@ const default_configuration = {
           name: "workspace",
           links: [
             {
-              name: "gmail",
-              url: "https://mail.google.com",
-              icon: "brand-gmail",
-              icon_color: palette.green,
-            },
-            {
-              name: "calendar",
-              url: "https://calendar.google.com",
-              icon: "calendar-filled",
+              name: "aula virtual",
+              url: "https://auth-eva.puce.edu.ec:8443/login?service=https%3A%2F%2Fssoserver2.puce.edu.ec%2F",
+              icon: "notebook",
               icon_color: palette.peach,
             },
             {
-              name: "sheets",
-              url: "https://docs.google.com/spreadsheets",
-              icon: "table",
+              name: "intranet",
+              url: "https://www.puce.edu.ec/intranet/login",
+              icon: "school",
               icon_color: palette.red,
-            },
-            {
-              name: "drive",
-              url: "https://drive.google.com/drive/home",
-              icon: "brand-google-drive",
-              icon_color: palette.blue,
             },
           ],
         },
@@ -91,6 +73,12 @@ const default_configuration = {
               url: "https://gxcorner.games/?LANG=en&COUNTRY=US&LOCALE=en-US",
               icon: "device-gamepad-2",
               icon_color: palette.mauve,
+            },
+            {
+              name: "fmhy",
+              url: "https://fmhy.net/",
+              icon: "device-gamepad-2",
+              icon_color: palette.blue,
             },
           ],
         },
@@ -108,12 +96,6 @@ const default_configuration = {
               url: "https://github.com",
               icon: "brand-github",
               icon_color: palette.green,
-            },
-            {
-              name: "neptune",
-              url: "https://ui.neptune.ai",
-              icon: "circle-triangle",
-              icon_color: palette.peach,
             },
             {
               name: "stackoverflow",
@@ -156,28 +138,16 @@ const default_configuration = {
           name: "resources",
           links: [
             {
-              name: "dou",
-              url: "https://dou.ua",
-              icon: "brand-prisma",
-              icon_color: palette.green,
-            },
-            {
               name: "hackernews",
               url: "https://news.ycombinator.com",
               icon: "brand-redhat",
               icon_color: palette.peach,
             },
             {
-              name: "uber engineering",
-              url: "https://www.uber.com/en-GB/blog/london/engineering",
-              icon: "brand-uber",
+              name: "tabler icons",
+              url: "https://tabler.io/icons",
+              icon: "brand-tabler",
               icon_color: palette.red,
-            },
-            {
-              name: "netflix tech blog",
-              url: "https://netflixtechblog.com",
-              icon: "brand-netflix",
-              icon_color: palette.blue,
             },
           ],
         },
@@ -191,18 +161,6 @@ const default_configuration = {
           name: "social media",
           links: [
             {
-              name: "telegram",
-              url: "https://web.telegram.org",
-              icon: "brand-telegram",
-              icon_color: palette.green,
-            },
-            {
-              name: "facebook",
-              url: "https://www.facebook.com",
-              icon: "brand-facebook",
-              icon_color: palette.peach,
-            },
-            {
               name: "reddit",
               url: "https://www.reddit.com/r/unixporn",
               icon: "brand-reddit",
@@ -214,28 +172,10 @@ const default_configuration = {
           name: "gaming",
           links: [
             {
-              name: "IGN",
-              url: "https://www.ign.com/account/playlist/library",
-              icon: "device-gamepad",
-              icon_color: palette.green,
-            },
-            {
               name: "steam",
               url: "https://store.steampowered.com",
               icon: "brand-steam",
               icon_color: palette.peach,
-            },
-            {
-              name: "epicgames",
-              url: "https://store.epicgames.com",
-              icon: "brand-fortnite",
-              icon_color: palette.red,
-            },
-            {
-              name: "nintendo",
-              url: "https://store.nintendo.co.uk",
-              icon: "device-nintendo",
-              icon_color: palette.blue,
             },
           ],
         },
@@ -253,18 +193,6 @@ const default_configuration = {
               url: "https://www.youtube.com",
               icon: "brand-youtube",
               icon_color: palette.peach,
-            },
-            {
-              name: "patreon",
-              url: "https://www.patreon.com",
-              icon: "brand-patreon",
-              icon_color: palette.red,
-            },
-            {
-              name: "kyivstar",
-              url: "https://tv.kyivstar.ua",
-              icon: "star-filled",
-              icon_color: palette.blue,
             },
           ],
         },
