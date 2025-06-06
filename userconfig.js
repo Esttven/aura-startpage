@@ -30,7 +30,7 @@ const default_configuration = {
   },
   disabled: [],
   localIcons: false,
-  fastlink: "",
+  fastlink: "https://github.com/Esttven/catppuccin-startpage/",
   openLastVisitedTab: true,
   tabs: [
     {
@@ -162,7 +162,7 @@ const default_configuration = {
           links: [
             {
               name: "reddit",
-              url: "https://www.reddit.com/r/unixporn",
+              url: "https://www.reddit.com",
               icon: "brand-reddit",
               icon_color: palette.red,
             },
