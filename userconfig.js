@@ -35,7 +35,7 @@ const default_configuration = {
   tabs: [
     {
       name: "main",
-      background_url: "src/img/banners/banner_14.gif",
+      background_url: "src/img/banners/banner_01.gif",
       categories: [
         {
           name: "bookmarks",
@@ -86,7 +86,7 @@ const default_configuration = {
     },
     {
       name: "dev",
-      background_url: "src/img/banners/banner_17.gif",
+      background_url: "src/img/banners/banner_02.gif",
       categories: [
         {
           name: "development",
@@ -155,7 +155,7 @@ const default_configuration = {
     },
     {
       name: "chi ll",
-      background_url: "src/img/banners/banner_13.gif",
+      background_url: "src/img/banners/banner_03.gif",
       categories: [
         {
           name: "social media",
@@ -205,9 +205,4 @@ const CONFIG = new Config(default_configuration, palette);
 
 const root = document.querySelector(":root");
 root.style.setProperty("--bg", palette.mantle);
-root.style.setProperty("--accent", palette.green);
-
-// Custom tab accent colors - modify these to change the color of each tab
-root.style.setProperty("--tab-1-color", palette.mauve);
-root.style.setProperty("--tab-2-color", palette.blue);
-root.style.setProperty("--tab-3-color", palette.green);
+root.style.setProperty("--accent", palette.mauve);
