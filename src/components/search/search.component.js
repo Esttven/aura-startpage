@@ -55,7 +55,7 @@ class Search extends Component {
           box-shadow: inset 0 -2px ${CONFIG.palette.crust};
           padding: .5em 0;
           background: none;
-          font: 500 22px 'Roboto', sans-serif;
+          font: 500 22px "JetBrains Mono", monospace;
           letter-spacing: 1px;
           color: ${CONFIG.palette.lavender};
       }
