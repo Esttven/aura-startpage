@@ -23,6 +23,7 @@ const default_configuration = {
     engines: {
       d: ["https://duckduckgo.com/?q=", "DuckDuckGo"],
       g: ["https://google.com/search?q=", "Google"],
+      y: ["https://www.youtube.com/results?search_query=", "YouTube"],
     },
   },
   keybindings: {
@@ -176,6 +177,12 @@ const default_configuration = {
               url: "https://store.steampowered.com",
               icon: "brand-steam",
               icon_color: palette.blue,
+            },
+            {
+              name: "humble bundle",
+              url: "https://www.humblebundle.com/",
+              icon: "moneybag",
+              icon_color: palette.red,
             },
           ],
         },
