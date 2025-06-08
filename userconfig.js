@@ -53,7 +53,7 @@ const default_configuration = {
           name: "workspace",
           links: [
             {
-              name: "aula virtual",
+              name: "aulaVirtual",
               url: "https://auth-eva.puce.edu.ec:8443/login?service=https%3A%2F%2Fssoserver2.puce.edu.ec%2F",
               icon: "notebook",
               icon_color: palette.sapphire,
@@ -70,7 +70,7 @@ const default_configuration = {
           name: "media",
           links: [
             {
-              name: "gx corner",
+              name: "gxCorner",
               url: "https://gxcorner.games/?LANG=en&COUNTRY=US&LOCALE=en-US",
               icon: "device-gamepad-2",
               icon_color: palette.red,
@@ -78,7 +78,7 @@ const default_configuration = {
             {
               name: "fmhy",
               url: "https://fmhy.net/",
-              icon: "device-gamepad-2",
+              icon: "player-play",
               icon_color: palette.mauve,
             },
           ],
@@ -145,9 +145,9 @@ const default_configuration = {
               icon_color: palette.peach,
             },
             {
-              name: "tabler icons",
+              name: "tablerIcons",
               url: "https://tabler.io/icons",
-              icon: "brand-tabler",
+              icon: "icons",
               icon_color: palette.red,
             },
           ],
@@ -179,7 +179,7 @@ const default_configuration = {
               icon_color: palette.blue,
             },
             {
-              name: "humble bundle",
+              name: "humbleBundle",
               url: "https://www.humblebundle.com/",
               icon: "moneybag",
               icon_color: palette.red,
