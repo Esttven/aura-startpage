@@ -201,6 +201,12 @@ const default_configuration = {
               icon: "brand-youtube",
               icon_color: palette.red,
             },
+            {
+              name: "hiAnime",
+              url: "https://hianime.to/home",
+              icon: "torii",
+              icon_color: palette.peach,
+            }
           ],
         },
       ],
