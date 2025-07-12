@@ -70,6 +70,12 @@ const default_configuration = {
               icon: "school",
               icon_color: palette.green,
             },
+            {
+              name: "awsAcademy",
+              url: "https://awsacademy.instructure.com/courses/126849?invitation=TNrXLLtotaA2hcOFuhWt609yeIJ9woarg2mbZxXv",
+              icon: "cloud",
+              icon_color: palette.blue,
+            }
           ],
         },
         {
