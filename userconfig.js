@@ -47,6 +47,12 @@ const default_configuration = {
               icon: "binary-tree",
               icon_color: palette.peach,
             },
+            {
+              name: "artSchool",
+              url: "https://cubebrush.co/my_library?product_id=0dpzeg",
+              icon: "brush",
+              icon_color: palette.yellow,
+            }
           ],
         },
         {
@@ -99,7 +105,7 @@ const default_configuration = {
               icon_color: palette.lavender,
             },
             {
-              name: "stackoverflow",
+              name: "stackOverflow",
               url: "https://stackoverflow.com",
               icon: "brand-stackoverflow",
               icon_color: palette.red,
@@ -116,7 +122,7 @@ const default_configuration = {
               icon_color: palette.green,
             },
             {
-              name: "leetcode",
+              name: "leetCode",
               url: "https://leetcode.com",
               icon: "code-plus",
               icon_color: palette.peach,
@@ -139,7 +145,7 @@ const default_configuration = {
           name: "resources",
           links: [
             {
-              name: "hackernews",
+              name: "hackerNews",
               url: "https://news.ycombinator.com",
               icon: "brand-redhat",
               icon_color: palette.peach,
@@ -205,7 +211,7 @@ const default_configuration = {
               name: "hiAnime",
               url: "https://hianime.to/home",
               icon: "torii",
-              icon_color: palette.peach,
+              icon_color: palette.pink,
             }
           ],
         },
